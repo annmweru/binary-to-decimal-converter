@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary</title>
+</head>
+<body>
+  <input type="number"   name="number" placeholder="only binary number" id="number">
+  <input type="button" value="check" onclick="binary()">
+  <script>
+function binary(){
+
+    var num=document.getElementById("number").value;
+var sum=0;
+var i=0;
+//10101
+while(num){
+    sum=sum+Math.pow(2,i)*(num%10);
+    i++;
+    num=parseInt(num/10);
+}
+alert(sum);
+}
+
+  </script>
+</body>
+</html>
+
+
+

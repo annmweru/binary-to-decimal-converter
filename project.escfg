@@ -1,0 +1,26 @@
+[
+    [
+        "ChipType",
+        "CM0813FHS"
+    ],
+    [
+        "cleanFlag",
+        true
+    ],
+    [
+        "ProjectType",
+        "HRCC"
+    ],
+    [
+        "ToolChain",
+        ""
+    ],
+    [
+        "TargetPath",
+        "Debug"
+    ],
+    [
+        "Name",
+        "binary to decimal converter"
+    ]
+]
